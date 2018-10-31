@@ -385,7 +385,7 @@ else:
         # apply ZCA whitening
         zca_whitening=False,
         # epsilon for ZCA whitening
-        zca_epsilon=1e-06,
+        zca_epsilon=1e-6,
         # randomly rotate images in the range (deg 0 to 180)
         rotation_range=0,
         # randomly shift images horizontally
